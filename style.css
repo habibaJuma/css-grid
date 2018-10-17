@@ -4,15 +4,15 @@
     position: relative;
     margin: auto;
     grid-gap: 10px;
-    /* grid-template-areas:"header header" */
-                         /* "nav nav"  */
-                         /* "left right" */
-                         /* "footer footer"; */
-    /* grid-template-columns: 200px 400px; */
-    /* grid-template-rows: 150px 200px 600px 200px; */
-  /* }  */
+    grid-template-areas:"header header"
+                         "nav nav" 
+                         "left right"
+                         "footer footer";
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 150px 200px 600px 200px;
+  } 
   
-  /* /*   
+  
   h1, h2 {
     font-family: monospace;
     text-align: center;
@@ -20,30 +20,30 @@
   
   header {
     background-color: dodgerblue;
-    grid-area: header;
+    /* grid-area: header; */
      
   }
   
   nav {
     background-color: beige;
-    grid-area: nav;
+    /* grid-area: nav; */
     
   }
   
   .left {
     background-color: dodgerblue;
-    grid-area: left;
+    /* grid-area: left; */
     
   }
   
   .right {
     background-color: beige;
-    grid-area: right;
+    /* grid-area: right; */
     
   }
   
   footer {
     background-color: dodgerblue;
-    grid-area: footer;
+    /* grid-area: footer; */
    
   }
